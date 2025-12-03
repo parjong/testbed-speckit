@@ -31,7 +31,7 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+This plan MUST align with the project's Core Principles: Code Quality, Testing Standards, User Experience Consistency, and Performance Requirements.
 
 ## Project Structure
 
