@@ -28,14 +28,14 @@ description: "Task list for Photo Album Organizer feature implementation"
 
 **Purpose**: Project initialization and basic structure
 
-- [ ] T010 Create Vite project structure in the repository root.
-- [ ] T011 Configure `package.json` with project metadata and scripts in `package.json`.
-- [ ] T012 Configure `vite.config.js` for vanilla JS and Vitest in `vite.config.js`.
-- [ ] T013 Install `vite`, `vitest`, `dexie` as dependencies in `package.json`.
-- [ ] T014 Create `public/index.html` with basic HTML structure in `public/index.html`.
-- [ ] T015 Create `src/main.js` entry point in `src/main.js`.
-- [ ] T016 Create `src/style.css` for global styles in `src/style.css`.
-- [ ] T017 Create `tests/unit/` and `tests/integration/` directories.
+- [X] T010 Create Vite project structure in the repository root.
+- [X] T011 Configure `package.json` with project metadata and scripts in `package.json`.
+- [X] T012 Configure `vite.config.js` for vanilla JS and Vitest in `vite.config.js`.
+- [X] T013 Install `vite`, `vitest`, `dexie` as dependencies in `package.json`.
+- [X] T014 Create `public/index.html` with basic HTML structure in `public/index.html`.
+- [X] T015 Create `src/main.js` entry point in `src/main.js`.
+- [X] T016 Create `src/style.css` for global styles in `src/style.css`.
+- [X] T017 Create `tests/unit/` and `tests/integration/` directories.
 
 ---
 
@@ -45,14 +45,14 @@ description: "Task list for Photo Album Organizer feature implementation"
 
 **⚠️ CRITICAL**: No user story work can begin until this phase is complete
 
-- [ ] T018 Create `src/services/db.js` for IndexedDB setup with Dexie.js.
-- [ ] T019 Define `Photo` and `Album` schema in `src/services/db.js`.
-- [ ] T020 Implement `PhotoService` in `src/services/photo-service.js` for basic photo CRUD (add, get by album, delete).
-- [ ] T021 Implement `AlbumService` in `src/services/photo-service.js` for basic album CRUD (add, get all, update order).
-- [ ] T022 Create `src/utils/date-grouping.js` for date-based photo grouping logic.
-- [ ] T023 [P] Create `tests/unit/services/db.test.js` for `db.js` unit tests.
-- [ ] T024 [P] Create `tests/unit/services/photo-service.test.js` for `photo-service.js` unit tests.
-- [ ] T025 [P] Create `tests/unit/utils/date-grouping.test.js` for `date-grouping.js` unit tests.
+- [X] T018 Create `src/services/db.js` for IndexedDB setup with Dexie.js.
+- [X] T019 Define `Photo` and `Album` schema in `src/services/db.js`.
+- [X] T020 Implement `PhotoService` in `src/services/photo-service.js` for basic photo CRUD (add, get by album, delete).
+- [X] T021 Implement `AlbumService` in `src/services/photo-service.js` for basic album CRUD (add, get all, update order).
+- [X] T022 Create `src/utils/date-grouping.js` for date-based photo grouping logic.
+- [X] T023 [P] Create `tests/unit/services/db.test.js` for `db.js` unit tests.
+- [X] T024 [P] Create `tests/unit/services/photo-service.test.js` for `photo-service.js` unit tests.
+- [X] T025 [P] Create `tests/unit/utils/date-grouping.test.js` for `date-grouping.js` unit tests.
 
 **Checkpoint**: Foundation ready - user story implementation can now begin in parallel
 
@@ -66,16 +66,16 @@ description: "Task list for Photo Album Organizer feature implementation"
 
 ### Implementation for User Story 1
 
-- [ ] T026 [P] [US1] Create input element for photo upload in `public/index.html`.
-- [ ] T027 [US1] Implement event listener for photo upload in `src/main.js`.
-- [ ] T028 [US1] Process uploaded photos (read file, extract date, create Photo object) in `src/main.js`.
-- [ ] T029 [US1] Use `date-grouping.js` to determine album for new photos in `src/main.js`.
-- [ ] T030 [US1] Save photos and update albums using `photo-service.js` in `src/main.js`.
-- [ ] T031 [P] [US1] Create `album-list.js` component for displaying albums in `src/components/album-list.js`.
-- [ ] T032 [US1] Integrate `album-list.js` into `src/main.js` to display albums.
-- [ ] T033 [US1] Fetch and render existing albums from `photo-service.js` in `src/main.js` on load.
-- [ ] T034 [P] [US1] Create `tests/unit/components/album-list.test.js` for `album-list.js` unit tests.
-- [ ] T035 [P] [US1] Create `tests/integration/photo-upload.test.js` for photo upload and album creation integration tests.
+- [X] T026 [P] [US1] Create input element for photo upload in `public/index.html`.
+- [X] T027 [US1] Implement event listener for photo upload in `src/main.js`.
+- [X] T028 [US1] Process uploaded photos (read file, extract date, create Photo object) in `src/main.js`.
+- [X] T029 [US1] Use `date-grouping.js` to determine album for new photos in `src/main.js`.
+- [X] T030 [US1] Save photos and update albums using `photo-service.js` in `src/main.js`.
+- [X] T031 [P] [US1] Create `album-list.js` component for displaying albums in `src/components/album-list.js`.
+- [X] T032 [US1] Integrate `album-list.js` into `src/main.js` to display albums.
+- [X] T033 [US1] Fetch and render existing albums from `photo-service.js` in `src/main.js` on load.
+- [X] T034 [P] [US1] Create `tests/unit/components/album-list.test.js` for `album-list.js` unit tests.
+- [X] T035 [P] [US1] Create `tests/integration/photo-upload.test.js` for photo upload and album creation integration tests.
 
 **Checkpoint**: At this point, User Story 1 should be fully functional and testable independently
 
