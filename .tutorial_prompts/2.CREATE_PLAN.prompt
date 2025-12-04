@@ -1,0 +1,3 @@
+/speckit.plan The application uses Vite with minimal number of libraries. Use vanilla HTML, CSS, and
+JavaScript as much as possible. Images are not uploaded anywhere and metadata is stored in a local
+SQLite database.
